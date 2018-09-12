@@ -1,0 +1,57 @@
+*. mkdir aula0{1..5}				Cria 5 pastas dentro de GNULINUX
+
+*. touch {a..z}{i,ii,iii}{1..10}.{a,c,so,o}	Cria muitos arquivos com nomes baseados nesses padrões
+
+1. a.	ls		Despliega arquivos em colunas
+	ls -m		Despliega arquivos em listas separados por virgula (,)
+	ls -l		Despliega arquivos com maior detalhes
+	ls -lv		Despliega os arquivos ordenadamente por versão
+
+1. b.	ls a*		Todos os arquivos que comenzam com a, são 120
+	ls a*.c		Todos os arquivos que comenzam com a e terminan com .c, são 30
+	ls a??,c	Todos os arquivos com este padrão, são 9
+	ls a????.c	Todos os arquivos com este padrão, são 10
+	ls ?iii?.c	Todos os arquivos com este padrão, são 234
+	ls *9.c		Todos os arquivos com este padrão, são 78
+
+1. c.	ls ai[1-5].c	Despliega todos os arquivos que seguem o padrão [1-5], são 5
+	ls [a-c]ii1.c	Despliega todos os arquivos que seguem o padrão [a-c], são 3
+
+1. d.	echo a*		Imprime na tela a saída do echo usando o bash (for element in a: print a), é 1
+	ls a*.c		Imprime na tela a saida do padrão, são 30
+	ls a??.c	Imprime na tela a saída do padrão, são 9
+	ls a????.c	Imprime " ", são 10
+	ls ?iii?.c	Imprime " ", são 234
+	ls *9.c		Imprime " ", são 78
+
+1. e.	echo ai[1-5].c	Imprime na tela a saída do echo, é 1
+	ls [a-c]ii1.c	Imprime " ", são 3
+
+2.	ls		lista o conteúdo dos diretórios
+	rm		elimina arquivos ou diretórios
+	mkdir		cria diretorios
+	pwd		imprime o nome do diretório atual/área de trabalho
+
+3.	man <n> onde (n de 1 a 8)
+	man 1 intro	Introdução a comandos do usuário
+	man 2 intro	Manual de programação de linux
+	man 3 intro	Introdução a funções de librerias
+	man 4 intro	Introdução a arquivos especiais
+	man 5 intro	Manual de programador de linux - intro a formatação de arquivos
+	man 6 intro	Manual de programador de linux - intro a jogos
+	man 7 intro	Manual de programador de linux - intro de miscelanias
+	man 8 intro	Manual de programador de linux - intro na administração e comandos de privilegios
+
+
+*.	ls -a		Imprime todos os arquivos e diretórios, incluindo os ocultos
+	ls -l		Imprime bastante informação do arquivo
+	ls -S ou --sort	Com -l Ordena por tamanha
+	ls -R		Imprime os subdiretórios
+	ls -k		Com -l imprime o tamanho em Kb
+	ls -l --block-size = M	imprime em Mb
+
+4.	man -k mkdir	Imprime o indice do manual de mkdir
+	mkdir -v	Imprime uma mensagem por cada arquivo criado (verbose)
+	mkdir -p a/b/c/d	Cria um conjunto de pastas, uma dentro da outra
+	rmdir -v	Imprime uma mensagem por cada arquivo eliminado (verbose)
+	rm -rf		Elimina todos os arquivos de forma recursiva, forçando. Muito perigoso.

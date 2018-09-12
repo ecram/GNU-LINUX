@@ -1,0 +1,62 @@
+1. Modificamos a variavel Language:
+	$ echo $LANGUAGE
+	$ es_ES
+	$ LANGUAGE='pt_BR'
+	$ echo $LANGUAGE
+	$ pt_BR
+2.a Modificar PATH e executar ls.
+	$ PATH=/tmp ls
+		Command 'ls' is available in '/bin/ls'
+		The command could not be located because '/bin' is not included in the PATH environment variable.
+		ls: command not found
+	$ PATH=/bin ls
+		aula01  aula02  aula03  aula04  aula05  perguntas.linux  sol01.txt  sol02.txt
+
+2.b.
+$ ls /usr/share/locale
+	aa        byn             en@boldquot  gd     jv            lv_LV  om     sk_SK     tl
+ace     \  ca              en_CA        gez    ka            mai    or     sl        tr
+ach       ca_ES@valencia  en_GB        gl     kab           mg     os     sl_SI     trv
+af        ca@valencia     en@quot      gl_ES  kk            mhr    pa     sml       tt
+af_ZA     ce              en@shaw      gu     kl            mi     pam    sn        tt@iqtelif
+aln       chr             en_US        gv     km            mk     pl     so        tyv
+am        ckb             eo           haw    km_KH         mk_MK  pl_PL  sq        ug
+an        cmn             es           he     kn            ml     ps     sr        uk
+ar        co              es_ES        he_IL  ko            mn     pt     sr@latin  uk_UA
+ary       crh             et           hi     kok           mr     pt_BR  sr@Latn   ur
+as        cs              eu           hr     ko_KR         ms     pt_PT  st        uz
+ast       csb             eu_ES        hr_HR  ks            ms_MY  qu     su        uz@cyrillic
+az        cs_CZ           fa           ht     ku            mt     ro     sv        ve
+bal       cv              fa_AF        hu     kw            my     ro_RO  sw        vec
+be        cy              fa_IR        hu_HU  ky            nb     ru     szl       vi
+be@latin  da              fi           hy     la            nb_NO  ru_RU  ta        vi_VN
+bem       da_DK           fi_FI        ia     lb            nds    rw     ta_IN     wa
+bg        de              fil          id     li            ne     sa     ta_LK     wae
+bg_BG     de_CH           fo           id_ID  ln            nhn    sc     te        wal
+bn        de_DE           fr           ilo    lo            nl     sco    tg        wo
+bn_IN     dv              fr_CA        is     locale.alias  nn     sd     th        xh
+bo        dz              frp          it     lo_LA         nn_NO  se     th_TH     zh_CN
+br        el              fur          it_IT  lt            no     shn    ti        zh_HK
+brx       en              fy           ja     lt_LT         nso    si     tig       zh_TW
+bs        en_AU           ga           ja_JP  lv            oc     sk     tk        zu
+ecram@AsusLinux:~/Descargas/GNULINUX$ echo $LANGUAGE=
+es_ES=
+ecram@AsusLinux:~/Descargas/GNULINUX$ echo $LANGUAGE=en_US
+es_ES=en_US
+ecram@AsusLinux:~/Descargas/GNULINUX$ LANGUAGE=en_US
+ecram@AsusLinux:~/Descargas/GNULINUX$ echo $LANGUAGE
+en_US
+
+2.c. ecram@AsusLinux:~/Descargas/GNULINUX$ CDPATH=/home/ecram/Descargas/GNULINUX/sol01.txt 
+ecram@AsusLinux:~/Descargas/GNULINUX$ cd
+ecram@AsusLinux:~$ nano $CDPATH
+
+2.d. Coloque data no PS1:
+	i) Exemplo:[curso@sanman-Seg Ago 18-~]
+	export PS1="\u@\h \D{%b %d %Y} [\$(date +%k:%M:%S)]> "
+
+3. Defina Alias como:
+i. alias edicao="nano ~/Descargas/GNULINUX/sol02.txt"
+ii. ls > arq
+
+4. a. 

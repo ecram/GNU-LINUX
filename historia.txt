@@ -1,0 +1,1003 @@
+ 1076  man rm
+ 1077  man mkdir
+ 1078  man cd
+ 1079  cd --help
+ 1080  man pwd
+ 1081  man ls
+ 1082  man 1 intro
+ 1083  man 2 intro
+ 1084  man 3 intro
+ 1085  man 4 intro
+ 1086  man 5 intro
+ 1087  man 6 intro
+ 1088  man 5 intro
+ 1089  man 7intro
+ 1090  man 7 intro
+ 1091  man 8 intro
+ 1092  man mkdir
+ 1093  man mrdir
+ 1094  man rmdir
+ 1095  man rm
+ 1096  exit
+ 1097  ssh aquari@143.106.60.88
+ 1098  man echo
+ 1099  var =  valo
+ 1100  var1000 =  valor
+ 1101  echo $var
+ 1102  help export
+ 1103  alias ls 
+ 1104  alias ls ls
+ 1105  ls
+ 1106  ls --color
+ 1107  ls --color=false
+ 1108  alias
+ 1109  alias teste="ls -l -a"
+ 1110  teste
+ 1111  echo $LANGUAGE
+ 1112  echo $PATH
+ 1113  cd Descargas/GNULINUX/
+ 1114  cat perguntas.linux 
+ 1115  which
+ 1116  man which
+ 1117  man wheris
+ 1118  whatis
+ 1119  whatis which
+ 1120  whatis whereis
+ 1121  whatis wheris
+ 1122  which ls
+ 1123  wheris ls
+ 1124  whereis ls
+ 1125  cd aula01
+ 1126  ll
+ 1127  cd //
+ 1128  cd ..
+ 1129  echo $MANPATH
+ 1130  cd
+ 1131  cd  Descargas/GNULINUX/
+ 1132  sort < perguntas.linux 
+ 1133  $PS1
+ 1134  $PS2
+ 1135  $\u
+ 1136  PATH
+ 1137  PATH=/tmp ls
+ 1138  which ls
+ 1139  echo $PATH
+ 1140  set
+ 1141  exit
+ 1142  set |les
+ 1143  set | less
+ 1144  env | less
+ 1145  set | less
+ 1146  echo $LANGUAGE"
+ 1147  echo $LANGUAGE
+ 1148  LANGUAGE='pt_BR'
+ 1149  echo $LANGUAGE
+ 1150  PATH='/tmp ls'
+ 1151  PATH
+ 1152  echo $PATH
+ 1153  PATH='/bin ls'
+ 1154  PATH
+ 1155  echo $PATH
+ 1156  ls
+ 1157  PATH=/tmp ls
+ 1158  PATH='/tmp ls'
+ 1159  echo $PATH
+ 1160  ls
+ 1161  path
+ 1162  echo $PATH
+ 1163  echo $PS2
+ 1164  echo $PS1
+ 1165  echo $PATH
+ 1166  PATH=temp ls$PATH
+ 1167  PATH=temp ls:$PATH
+ 1168  echo $PATH
+ 1169  PATH=/temp ls:$PATH
+ 1170  PATH=/BIN ls:$PATH
+ 1171  ls
+ 1172  cat /usr/share/locale
+ 1173  ls /usr/share/locale
+ 1174  echo $LANGUAGE=
+ 1175  echo $LANGUAGE=en_US
+ 1176  LANGUAGE=en_US
+ 1177  echo $LANGUAGE
+ 1178  echo $PATH
+ 1179  PATH=/tmp ls:$PATH
+ 1180  echo $PATH
+ 1181  PATH=/tmp ls
+ 1182  PATH=/bin ls
+ 1183  echo $CDPATH
+ 1184  CDPATH=/home/ecram/Descargas/GNULINUX/
+ 1185  CDPATH=/home/ecram/Descargas/GNULINUX/sol02.txt
+ 1186  echo CDPATH
+ 1187  echo $CDPATH
+ 1188  nano CDPATH
+ 1189  nano sol02.txt 
+ 1190  CDPATH=/home/ecram/Descargas/GNULINUX/sol01.txt
+ 1191  nano CDPATH
+ 1192  CDPATH='/home/ecram/Descargas/GNULINUX/sol01.txt'
+ 1193  echo $CDPATH
+ 1194  nano CDPATH
+ 1195  pwd
+ 1196  CDPATH=/home/ecram/Descargas/GNULINUX/sol01.txt 
+ 1197  cd
+ 1198  nano $CDPATH
+ 1199  cd -
+ 1200  echo $PS1
+ 1201  PS1=\d:$PS1
+ 1202  ll
+ 1203  echo $PS1
+ 1204  PS1=
+ 1205  cd Descargas/GNULINUX/
+ 1206  teste
+ 1207  set
+ 1208  ll
+ 1209  cd ..
+ 1210  ll
+ 1211  mv perguntas.linux GNULINUX/
+ 1212  cd GNULINUX/
+ 1213  ll
+ 1214  nano perguntas.linux 
+ 1215  touch sol02.txt
+ 1216  nano sol02.txt 
+ 1217  ~/Descargas/GNULINUX/
+ 1218  nano sol02.txt 
+ 1219  nano sol03.txt
+ 1220  rm sol03.txt 
+ 1221  nano sol02.txt 
+ 1222  echo $PS1
+ 1223  PS1=\[\e]0;\u@\h\d: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$
+ 1224  echo $PS1
+ 1225  PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$
+ 1226  PS1='\[\e]0;\u@\h\d: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$'
+ 1227  PS1='\[\e]0;\u@\h\D: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$'
+ 1228  PS1='\[\e]0;\u@\h\D{%m %d}: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$'
+ 1229  PS1='\[\e]0;\u@\h \date {%m %d}: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$'
+ 1230  PS1='\[\e]0;\u@\h \$(date +%k:%M:%S): \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$'
+ 1231  PS1='\[\e]0;\u@\h\$(date +%k:%M:%S): \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$'
+ 1232  PS1='\[\e]0;\u@\h \$(date +%k:%M:%S): \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$'
+ 1233  export PS1='\[\e]0;\u@\h \$(date +%k:%M:%S): \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$'
+ 1234  export PS1="\u@\h [\$(date +%k:%M:%S)]> "
+ 1235  export PS1='\[\e]0;\u@\h \$(date +%k:%M:%S): \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$'
+ 1236  export PS1='\[\e]0;\u@\h [\$(date +%k:%M:%S)]): \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$'
+ 1237  export PS1='\[\e]0;\u@\h [\$(date +%k:%M:%S)]>): \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$'
+ 1238  export PS1='\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$'
+ 1239  export PS1="\u@\h [\$(date +%k:%M:%S)]> "
+ 1240  export PS1="\u@\h\D{%d.%m.%Y} [\$(date +%k:%M:%S)]> "
+ 1241  export PS1="\u@\h \D{%d.%m.%Y} [\$(date +%k:%M:%S)]> "
+ 1242  export PS1="\u@\h \D{%b.%Y} [\$(date +%k:%M:%S)]> "
+ 1243  export PS1="\u@\h \D{%b %d %Y} [\$(date +%k:%M:%S)]> "
+ 1244  alias edicao=vim ~/Descargas/GNULINUX/sol01.txt
+ 1245  alias edicao="vim ~/Descargas/GNULINUX/sol02.txt"
+ 1246  edicao
+ 1247  alias edicao="nano ~/Descargas/GNULINUX/sol02.txt"
+ 1248  edicao
+ 1249  gedit sol02.txt 
+ 1250  edicao > arq
+ 1251  ls > arq
+ 1252  cat arq
+ 1253  sort <arq
+ 1254  sort < arq > arq2
+ 1255  diff arq arq2
+ 1256  sort < ls > arq
+ 1257  man tee
+ 1258  exit
+ 1259  cd /tmp/
+ 1260  mkdir LinuxBas ; cd LinuxBas; pwd>
+ 1261  echo "Este es el archivo LEAME" > LEAME
+ 1262  echo "Este es el archivo nota.txt" > nota.txt
+ 1263  ls -l
+ 1264  cat LEAME nota.txt 
+ 1265  cp nota.txt nota.copia
+ 1266  ll
+ 1267  mkdir dir1 ; cp nota.txt dir1
+ 1268  ls -lR
+ 1269  cp nota.copia LEAME dir1
+ 1270  mkdir dir2; touch dir2/lunes dir2/martes; ls dir2
+ 1271  cp dir2/* .
+ 1272  ls
+ 1273  cp dir1 dir3
+ 1274  cp -r dir1 dir3
+ 1275  ll
+ 1276  ls -l dir3
+ 1277  mkdir dir4
+ 1278  cp dir4 dir4.copia
+ 1279  ll
+ 1280  cp dir4 dir4.copia
+ 1281  ls -ld dir4
+ 1282  rmdir dir4
+ 1283  ls -l
+ 1284  mkdir dir4
+ 1285  cp dir4 dir4.copia
+ 1286  cp -r dir4 dir4.copia
+ 1287  ll
+ 1288  rmdir dir4
+ 1289  rmdir dir4*
+ 1290  ls -l
+ 1291  rm -r dir1/* dir2
+ 1292  ll
+ 1293  touch arch1 arch2 archX arch~
+ 1294  ls -l
+ 1295  rm arch?
+ 1296  ll
+ 1297  echo "Adios a todos" > adios
+ 1298  mv hola adios
+ 1299  ll
+ 1300  mv hola adios
+ 1301  mv dir1 dirnuevo
+ 1302  ll
+ 1303  mv dir2 dirnuevo
+ 1304  ls -l dirnuevo
+ 1305  rm -r dirnuevo
+ 1306  rm -r *
+ 1307  ll
+ 1308  echo 'Hola todos de nuevo!'
+ 1309  echo 'Hola todos de nuevo!' > adios
+ 1310  adios
+ 1311  echo adios
+ 1312  cat adios
+ 1313  ln adios adios.lno
+ 1314  cat adios
+ 1315  cat adios.lno 
+ 1316  ls -l adios*
+ 1317  ll
+ 1318  file adios
+ 1319  file adios.lno 
+ 1320  echo 'Hola todos de nuevo!' > adios2
+ 1321  ll
+ 1322  echo 'Hola todos de nuevssso!' > adios2
+ 1323  ll
+ 1324  mkdir dir1
+ 1325  ln adios.lno dir1/adios
+ 1326  ln adios dir1/adios.ln1
+ 1327  ls -l
+ 1328  ls -l adios* dir1/adios
+ 1329  ls -l adios* dir1/adios*
+ 1330  acho "otra linea" >> adios
+ 1331  echo "otra linea" >> adios
+ 1332  cat adios
+ 1333  cat adios.lno 
+ 1334  ll
+ 1335  rm adios*
+ 1336  ls -l dir1/adios*
+ 1337  cat dir1/adios*
+ 1338  ln dir1 dir1ln
+ 1339  echo "ESta es la nota" > nota
+ 1340  ln -s nota nota.ls0
+ 1341  ls -l
+ 1342  rm nota
+ 1343  ll
+ 1344  cat nota.ls0 
+ 1345  ln -s dir1 dir1ls
+ 1346  ll
+ 1347  ls -ld dir*
+ 1348  ls dir*
+ 1349  ls -l dir1
+ 1350  ls -l dir1ls
+ 1351  cd dir1ls
+ 1352  ls -l
+ 1353  pwd
+ 1354  bin/pwd
+ 1355  /bin/pwd
+ 1356  pwd
+ 1357  /bin/pwd
+ 1358  cd ..
+ 1359  ln -s dir1 dir1ls2
+ 1360  ls -l dir1ls2
+ 1361  mv dir1ls2 dir1LS2
+ 1362  ls -ld dir1*
+ 1363  mv dir1 dir1ORIG
+ 1364  ll
+ 1365  cd dir1ls
+ 1366  mv dir1ORIG dir1
+ 1367  ll
+ 1368  nano dir1ls
+ 1369  rm dir1LS2
+ 1370  ls -ld dir*
+ 1371  rm -r dir1
+ 1372  ls -ld dir1*
+ 1373  ll
+ 1374  echo "Esto es algo nuevo que hacer" > nota.txt
+ 1375  ll
+ 1376  chown esteban nota.txt 
+ 1377  which passwd
+ 1378  chmod -vR a+r dir1
+ 1379  ll
+ 1380  mkdir dir1
+ 1381  chmod -vR a+r dir1
+ 1382  ll
+ 1383  chmod -vR a+r dir1
+ 1384  echo $EDITOR
+ 1385  which vi
+ 1386  which nano
+ 1387  EDITOR=/usr/bin/vi
+ 1388  echo $EDITOR
+ 1389  MIEDITOR='basename $EDITOR'
+ 1390  echo "Mi editor es $MIEDITOR"
+ 1391  MIEDITOR=`basename $EDITOR`
+ 1392  echo MIEDITOR
+ 1393  echo $MIEDITOR
+ 1394  echo "Mi editor es $MIEDITOR"
+ 1395  MIEDITOR="basename $EDITOR"
+ 1396  echo $MIEDITOR
+ 1397  echo "Mi editor es $MIEDITOR"
+ 1398  MIEDITOR='basename $EDITOR'
+ 1399  echo "Mi editor es $MIEDITOR"
+ 1400  echo ´Mi editor es $MIEDITOR´
+ 1401  echo "Mi editor es $MIEDITOR"
+ 1402  MIEDITOR=`basename $EDITOR`
+ 1403  echo "Mi editor es $MIEDITOR"
+ 1404  DIREDITOR=`dirname $EDITOR`
+ 1405  echo "Mi editor es $MIEDITOR en el directorio $DIREDITOR"
+ 1406  cat /etc/passwd
+ 1407  cat /etc/passwd > /dev/null
+ 1408  ls -l /dev
+ 1409  ls -l /dev | less
+ 1410  sda
+ 1411  tty
+ 1412  sda1
+ 1413  ls -l /dev | less
+ 1414  tty
+ 1415  tty44
+ 1416  tty
+ 1417  sda
+ 1418  cat - < /dev/pts/1
+ 1419  cat - < `tty`
+ 1420  ssh 143.106.60.88
+ 1421  ssh aquari@143.106.60.88
+ 1422  ping 143.106.60.88
+ 1423  ssh aquari@143.106.60.88
+ 1424  ssh aquari@143.106.60.70
+ 1425  ping 143.106.60.88
+ 1426  ben
+ 1427  bem
+ 1428  ssh aquari@10.1.1.237
+ 1429  ssh aquari@10.1.1.237
+ 1430  ifconfig
+ 1431  ssh aquari@10.1.1.237
+ 1432  sleep 5
+ 1433  sleep 50
+ 1434  sleep 5 & ls
+ 1435  sleep 5 ; ls
+ 1436  sleep 30 &
+ 1437  ps
+ 1438  ls
+ 1439  ps
+ 1440  sleep 10 &
+ 1441  ps
+ 1442  ls
+ 1443  sleep 10 &
+ 1444  ls
+ 1445  jobs
+ 1446  ls
+ 1447  sleep ; ls
+ 1448  sleep 10 ; ls
+ 1449  fg
+ 1450  sleep 120 &
+ 1451  sleep 1300 &
+ 1452  fg
+ 1453  sleep 1300 &
+ 1454  ps
+ 1455  sleep 120 &
+ 1456  sleep 1300 &
+ 1457  ps
+ 1458  jobs
+ 1459  fg
+ 1460  bg
+ 1461  stty
+ 1462  stty -a
+ 1463  ls afrsefds ; ls
+ 1464  ls afrsefds && ls
+ 1465  ls afrsefds AND ls
+ 1466  ls afrsefds && ls
+ 1467  pidof sllep
+ 1468  pidof sleep
+ 1469  ps
+ 1470  bg 7082
+ 1471  jobs
+ 1472  fg 1
+ 1473  bg 1
+ 1474  jobs
+ 1475  ps
+ 1476  kill 7085
+ 1477  ps
+ 1478  echo @PATH
+ 1479  echo $PATH
+ 1480  l
+ 1481  ll
+ 1482  ls -l
+ 1483  ll
+ 1484  vim 345
+ 1485  vim
+ 1486  sudo apt-get install vim
+ 1487  vim 345.txt 
+ 1488  vimtutor
+ 1489  man vim
+ 1490  vimtutor
+ 1491  vim 345.txt 
+ 1492  cp 345.txt 345-novo.txt
+ 1493  vim 345-novo.txt 
+ 1494  vim -d 345.txt 345-novo.txt 
+ 1495  vim 345.txt 
+ 1496  tac 345.txt | less
+ 1497  tac 345.txt
+ 1498  more 345.txt 
+ 1499  time
+ 1500  jobs
+ 1501  ps
+ 1502  time 3258
+ 1503  free
+ 1504  df
+ 1505  top
+ 1506  lld
+ 1507  ldd
+ 1508  ldd texto
+ 1509  cd Descargas/GNULINUX/
+ 1510  ll
+ 1511  nano sol01.txt 
+ 1512  nano sol02.txt 
+ 1513  ll
+ 1514  nano sol02.txt
+ 1515  nano sol03.txt
+ 1516  ssh aquari@143.106.60.88
+ 1517  ssh aquari@143.106.60.88
+ 1518  ssh aquari@143.106.60.88
+ 1519  ping 143.106.60.88
+ 1520  ssh aquari@143.106.60.88
+ 1521  sudo apt-cache show lxde
+ 1522  sudo apt-get purge lxde
+ 1523  sudo apt-get purge gnome*
+ 1524  sudo apt-get purge lxde-*
+ 1525  sudo apt autoremove
+ 1526  sudo apt install unity
+ 1527  sudo apt install ubuntu-desktop
+ 1528  sudo apt-get dist-upgrade
+ 1529  nano /etc/lightdm/lightdm.conf.d/50-myconfig.conf
+ 1530  cd /etc/lightdm/lightdm.conf.d/
+ 1531  ll
+ 1532  sudo nano 50-myconfig.conf
+ 1533  sudo reboot
+ 1534  ssh aquari@143.106.60.88
+ 1535  ping 143.106.60.88
+ 1536  ssh aquari@143.106.60.88
+ 1537  sudo ufw disable
+ 1538  ssh aquari@143.106.60.88
+ 1539  sudo ufw enable
+ 1540  iptable
+ 1541  iptables
+ 1542  iptables -l
+ 1543  ssh aquari@143.106.60.88
+ 1544  ping 143.106.60.88
+ 1545  ssh aquari@143.106.60.88
+ 1546  man ssh
+ 1547  ssh aquari@143.106.60.88
+ 1548  ssh -p 2222 aquari@143.106.60.88
+ 1549  ssh aquari@143.106.60.88 -p 22
+ 1550  pig 143.106.60.88
+ 1551  ping 143.106.60.88
+ 1552  ssh aquari@143.106.60.88 -p 22
+ 1553  ssh aquari@143.106.60.88
+ 1554  exit
+ 1555  ssh aquari@143.106.60.88
+ 1556  ping 143.106.60.88
+ 1557  ssh aquari@143.106.60.88
+ 1558  ssh 143.106.60.88
+ 1559  ssh aquari@143.106.60.88
+ 1560  ssh 143.106.60.88
+ 1561  ping 143.106.60.88
+ 1562  ssh aquari@143.106.60.88
+ 1563  ssh aquari@143.106.60.70
+ 1564  ping 143.106.60.70
+ 1565  exit
+ 1566  ping 143.106.60.70
+ 1567  ssh aquari@143.106.60.88
+ 1568  ping 143.106.60.70
+ 1569  ssh aquari@143.106.60.88
+ 1570  sudo apt-get purge lxde
+ 1571  sudo apt-get purge gnome*
+ 1572  sudo apt-get purge lxde-*
+ 1573  sudo apt autoremove
+ 1574  sudo apt install unity
+ 1575  sudo apt install ubuntu-desktop
+ 1576  sudo apt-get dist-upgrade
+ 1577  cd etc/lightdm/lightdm.conf.d/
+ 1578  cd /etc/lightdm/lightdm.conf.d/
+ 1579  ll
+ 1580  nano 50-myconfig.conf 
+ 1581  exit
+ 1582  sudo apt update && sudo apt dist-upgrade
+ 1583  sudo apt install update-manager-core
+ 1584  sudo nano /etc/update-manager/release-upgrades
+ 1585  lsb_release -a
+ 1586  do-release-upgrade
+ 1587  sudo su reboot
+ 1588  su reboot
+ 1589  poweroff
+ 1590  exit
+ 1591  exit
+ 1592  cd Descargas/sudo nano /etc/update-manager/release-upgrades
+ 1593  sudo nano /etc/update-manager/release-upgrades
+ 1594  exit
+ 1595  cd Descargas/GNULINUX/
+ 1596  ll
+ 1597  vim perguntas.linux 
+ 1598  exit
+ 1599  let
+ 1600  let -h
+ 1601  let --help
+ 1602  test
+ 1603  test --help
+ 1604  man test
+ 1605  test -f hello.sh
+ 1606  man test
+ 1607  if test -f hello.sh; then echo verdadeiro; fi
+ 1608  man test
+ 1609  cd Descargas/GNULINUX/
+ 1610  test -f hello.sh
+ 1611  if test -f hello.sh; then echo verdadeiro; fi
+ 1612  ll
+ 1613  vim hello.sh
+ 1614  if test -f hello.sh; then echo verdadeiro; fi
+ 1615  ll
+ 1616  ll hello.sh 
+ 1617  chmod u+x hello.sh 
+ 1618  PATH=/home/ecram/Descargas/GNULINUX/:$PATH
+ 1619  hello.sh 
+ 1620  hello.sh Marcelo
+ 1621  for nome in Marcelo Invert Palma Salas; do echo $nome; done
+ 1622  for num in 1 2 3 4 5; do $((sum+=num)); done; echo $sum
+ 1623  for num in 1 2 3 4 5; do sum+=num; done; echo $sum
+ 1624  for num in 1 2 3 4 5; do let sum+=num; done; echo $sum
+ 1625  for num in 1 2 3 4 5; do $((suma+=num));echo $suma; done; echo $sum
+ 1626  suma=0;for num in 1 2 3 4 5; do let suma=suma=num;echo $suma; done; echo $sum
+ 1627  suma=0;for num in 1 2 3 4 5; do let suma=suma=num;echo $suma; done; echo $suma
+ 1628  suma=0;for num in 1 2 3 4 5; do let suma=suma+num;echo $suma; done; echo $suma
+ 1629  suma=0;for num in 1 2 3 4 5; do let suma+=num;echo $suma; done; echo $suma
+ 1630  exit
+ 1631  ssh aquari@143.106.60.88
+ 1632  ssh aquari@143.106.60.88
+ 1633  ssh aquari@143.106.60.88
+ 1634  ping 143.106.60.88
+ 1635  pint 143.106.60.88
+ 1636  telnet 143.106.60.88
+ 1637  ssh aquari@143.106.60.88
+ 1638  ssh aquari@143.106.60.88 22
+ 1639  ssh 143.106.60.88 22
+ 1640  telnet 143.106.60.88 22
+ 1641  ssh aquari@143.106.60.88
+ 1642  ping 143.106.60.88
+ 1643  ssh aquari@143.106.60.88
+ 1644  ssh aquari@143.106.60.70
+ 1645  ifconfig
+ 1646  ssh aquari@143.106.60.70
+ 1647  telnet 143.106.60.88 22
+ 1648  ssh aquari@143.106.60.70
+ 1649  ifconfig
+ 1650  nmap -nP 143.106.60.88
+ 1651  sudo apt install nmap
+ 1652  nmap -nP 143.106.60.88
+ 1653  nmap -Pn 143.106.60.88
+ 1654  nmap -Pn 143.106.60.70
+ 1655  ssh aquari@143.106.60.70
+ 1656  ssh -vvv 201.82.170.196
+ 1657  telnet -vvv 201.82.170.196
+ 1658  nmap -vvv 201.82.170.196
+ 1659  ssh -f -L 22:localhost:80 143.106.60.88
+ 1660  sudo ssh -f -L 22:localhost:80 143.106.60.88
+ 1661  sudo ssh -f -L 80:localhost:22 143.106.60.88
+ 1662  ssh -L 80:localhost:22 143.106.60.88
+ 1663  sudo ssh -L 80:localhost:22 143.106.60.88
+ 1664  sudo ssh -L 80:aquari:22 143.106.60.88
+ 1665  sudo ssh -R 80:aquari:22 143.106.60.88
+ 1666  sudo ssh -R 80:localhost:22 aquari@143.106.60.88
+ 1667  sudo ssh -R 8080:localhost:22 aquari@143.106.60.88
+ 1668  sudo ssh -R 8080:localhost:80 aquari@143.106.60.88
+ 1669  sudo ssh -R 8080:localhost:22 aquari@143.106.60.88
+ 1670  sudo ssh -R 80:localhost:22 aquari@143.106.60.88
+ 1671  ssh -R 80:localhost:22 aquari@143.106.60.88
+ 1672  ssh -R 8080:localhost:22 aquari@143.106.60.88
+ 1673  ssh -R 22:localhost:80 aquari@143.106.60.88
+ 1674  ssh -L 22:localhost:22 aquari@143.106.60.88
+ 1675  ssh -R 22:localhost:22 aquari@143.106.60.88
+ 1676  sudo iptables -L
+ 1677  vi /etc/ssh/sshd_config
+ 1678  cd /etc/ssh/
+ 1679  ll
+ 1680  nano ssh_config 
+ 1681  sudo nano ssh_config 
+ 1682  /etc/init.d/ssh restart
+ 1683  ll
+ 1684  cd /etc/init.d/
+ 1685  ll
+ 1686  ls
+ 1687  ssh --version
+ 1688  man ssh
+ 1689  man ssh | restart
+ 1690  man ssh | grep restart
+ 1691  man ssh | grep "restart"
+ 1692  ll
+ 1693  ssh --help
+ 1694  ssh -v
+ 1695  service sshd restart
+ 1696  service ssh restart
+ 1697  sudo service ssh restart
+ 1698  sudo systemctl restart ssh
+ 1699  ssh
+ 1700  which ssh
+ 1701  sudo /usr/bin/ssh restart
+ 1702  cd /usr/bin/ssh
+ 1703  cd /usr/bin/
+ 1704  ll
+ 1705  ls
+ 1706  ssh restart
+ 1707  ssh
+ 1708  cd /etc/init.d/
+ 1709  ll
+ 1710  cd /etc/ssh/
+ 1711  ll
+ 1712  nano moduli 
+ 1713  nano ssh_config 
+ 1714  exit
+ 1715  ssh -p80 aquari@143.106.60.88
+ 1716  ssh -p 80 aquari@143.106.60.88
+ 1717  ssh -p 22 aquari@143.106.60.88
+ 1718  ssh aquari@143.106.60.88
+ 1719  ssh -p 80 aquari@143.106.60.88
+ 1720  ssh -p 22 aquari@143.106.60.88
+ 1721  ssh aquari@143.106.60.88
+ 1722  exit
+ 1723  ssh -R 80:localhost:22 aquari@143.106.60.88
+ 1724  ssh -R 22:localhost:22 aquari@143.106.60.88
+ 1725  ssh ecram@localhost -p 22
+ 1726  ssh ecram@192.168.0.11 -p 22
+ 1727  nmap -Pn 192.168.0.11
+ 1728  nmap -nP 192.168.0.11
+ 1729  nmap -Pn 192.168.0.11
+ 1730  iptables --help
+ 1731  iptables --help | less
+ 1732  iptables -L
+ 1733  sudo iptables -L
+ 1734  ll
+ 1735  nmap -nP 192.168.0.11
+ 1736  nmap -Pn 192.168.0.11
+ 1737  exit
+ 1738  ssh aquari@143.106.60.88
+ 1739  ssh -p 22 aquari@143.106.60.88
+ 1740  ssh ecram@192.168.0.11 -p 80
+ 1741  ssh ecram@192.168.0.11 -p 22
+ 1742  cd /etc/init.d/
+ 1743  ll
+ 1744  cd ..
+ 1745  cd ../etc/ssh/
+ 1746  ll
+ 1747  nano ssh_config 
+ 1748  sudo nano ssh_config 
+ 1749  sudo reboot
+ 1750  sudo nano /etc/ssh/ssh_config 
+ 1751  ssh ecram@192.168.0.11 -p 22
+ 1752  ssh aquari@143.106.60.88
+ 1753  iptables -t nat -I PREROUTING -i interface_externa -p tcp --dport 80 -j REDIRECT --to-port 22
+ 1754  sudo iptables -t nat -I PREROUTING -i interface_externa -p tcp --dport 80 -j REDIRECT --to-port 22
+ 1755  iptables -L INPUT -t nat -I PREROUTING -i interface_externa -p tcp --dport 80 -j REDIRECT --to-port 22
+ 1756  ssh aquari@143.106.60.88
+ 1757  ssh aquari@143.106.60.88 -p 90
+ 1758  ssh aquari@143.106.60.88 -p 80
+ 1759  ssh aquari@143.106.60.88 -p 22
+ 1760  iptables -L -n -v
+ 1761  sudo iptables -L -n -v
+ 1762  sudo iptables -L -n -v |less
+ 1763  sudo iptables -L
+ 1764  sudo iptables -L | less
+ 1765  sudo iptables -L INPUT -n -v
+ 1766  ssh aquari@143.106.60.88
+ 1767  ifconfig
+ 1768  ping 192.168.0.18
+ 1769  ping -I wlp3s0 
+ 1770  sudo netstat -pant|grep sshd
+ 1771  exot
+ 1772  exit
+ 1773  cd /etc/
+ 1774  ll
+ 1775  ls
+ 1776  cd hosts
+ 1777  nano host
+ 1778  nano hosts
+ 1779  ssh -6 2205:f200:40:401::9ab4:8b43
+ 1780  ssh -6 2804:14c:482:27b:f920:d794:cecf:e1b0
+ 1781  ssh -4 192.168.0.18
+ 1782  ssh -4 192.168.0.18
+ 1783  ssh aquari@143.106.60.88
+ 1784  ping 143.106.60.88
+ 1785  ssh aquari@143.106.60.88
+ 1786  exit
+ 1787  ssh -aquari@143.106.60.88
+ 1788  ssh aquari@143.106.60.88
+ 1789  exit
+ 1790  ssh aquari@143.106.60.88
+ 1791  exit
+ 1792  ssh aquari@143.106.60.88
+ 1793  exit
+ 1794  ssh aquari@143.106.60.88
+ 1795  cd Descargas/GNULINUX/
+ 1796  ll
+ 1797  ssh curso@sandman
+ 1798  ping sandman
+ 1799  ping 1143.106.32.130
+ 1800  ping 143.106.32.130
+ 1801  ssh curso@143.106.32.130
+ 1802  nmap 143.106.32.130
+ 1803  nmap -Pn 143.106.32.130
+ 1804  exit
+ 1805  cd Descargas/
+ 1806  ls
+ 1807  ll
+ 1808  ls
+ 1809  mv gnuplot-5.2.2.tar.gz opera-stable_51.0.2830.55_amd64.deb GNULINUX/.
+ 1810  cd GNULINUX/
+ 1811  ll
+ 1812  tar xzvf gnuplot-5.2.2.tar.gz 
+ 1813  cd gnuplot-5.2.2/
+ 1814  ll
+ 1815  nano README
+ 1816  ./configure
+ 1817  ll
+ 1818  sudo ./configure
+ 1819  ./configure --help
+ 1820  ./configurels
+ 1821  ls
+ 1822  pwd
+ 1823  make
+ 1824  make check
+ 1825  make install
+ 1826  ./configure
+ 1827  make install
+ 1828  make
+ 1829  make install
+ 1830  ./prepare
+ 1831  cd ..
+ 1832  ll
+ 1833  rm -r gnuplot-5.2.2
+ 1834  ll
+ 1835  tar xfz gnuplot-5.2.2.tar.gz 
+ 1836  ll
+ 1837  cd gnuplot-5.2.2/
+ 1838  sudo ./prepare
+ 1839  ls
+ 1840  ./prepare
+ 1841  cd ..
+ 1842  ll
+ 1843  rm -r gnuplot-5.2.2*
+ 1844  ll
+ 1845  cd .,
+ 1846  cd ..
+ 1847  ll
+ 1848  mv gnuplot-5.2.2.tar.gz GNULINUX/.
+ 1849  ll
+ 1850  cd GNULINUX/
+ 1851  ll
+ 1852  xfz opera-stable_51.0.2830.55_amd64.deb 
+ 1853  xfz gnuplot-5.2.2.tar.gz 
+ 1854  xzf gnuplot-5.2.2.tar.gz 
+ 1855  tar xfz gnuplot-5.2.2.tar.gz 
+ 1856  ll
+ 1857  cd gnuplot-5.2.2/
+ 1858  ll
+ 1859  nano INSTALL
+ 1860  ./configure
+ 1861  nano INSTALL
+ 1862  make
+ 1863  make check
+ 1864  make install
+ 1865  sudo make install
+ 1866  cd ..
+ 1867  ll
+ 1868  rm -r gnuplot-5.2.2*
+ 1869  cd ..
+ 1870  ll
+ 1871  mv gnuplot-5.2.2.tar.gz GNULINUX/.
+ 1872  cd  GNULINUX/
+ 1873  ll
+ 1874  tzr xfzv gnuplot-5.2.2.tar.gz 
+ 1875  tzr -xfzv gnuplot-5.2.2.tar.gz 
+ 1876  tar -xfzv gnuplot-5.2.2.tar.gz 
+ 1877  tar xfzv gnuplot-5.2.2.tar.gz 
+ 1878  cd gnuplot-5.2.2/
+ 1879  ll
+ 1880  sudo su
+ 1881  ssh curso@sandman
+ 1882  nmap -Pn 143.106.32.130
+ 1883  ifconfig
+ 1884  man tar
+ 1885  ssh aquari@143.106.60.88
+ 1886  sudo poweroff
+ 1887  sudo apt install htlip
+ 1888  sudo apt install hplip
+ 1889  sudo hp-setup 
+ 1890  sudo hp-setup -i
+ 1891  sudo hp-setup --help
+ 1892  sudo hp-setup -i clj2840.las
+ 1893  sudo hp-setup -i clj2840.lasca
+ 1894  uname
+ 1895  uname -a
+ 1896  uname -or
+ 1897  cat /etc/issue
+ 1898  sudo apt-get update
+ 1899  sudo apt-get upgrade
+ 1900  git clone https://github.com/spin83/multi-monitors-add-on.git
+ 1901  pwd
+ 1902  cd multi-monitors-add-on
+ 1903  cp -r multi-monitors-add-on@spin83 ~/.local/share/gnome-shell/extensions
+ 1904  sudo apt-get install gnome-tweak-tool
+ 1905  cd ..
+ 1906  ll
+ 1907  ls
+ 1908  cd multi-monitors-add-on/
+ 1909  lk
+ 1910  ll
+ 1911  nano README.md 
+ 1912  exit
+ 1913  ssh aquari@143.106.60.88
+ 1914  ssh aquari@10.1.1.237
+ 1915  exit
+ 1916  tar xfz sublime_text_3_build_3143_x64.tar.bz2 
+ 1917  tar xfzv sublime_text_3_build_3143_x64.tar.bz2 
+ 1918  sudo su
+ 1919  exit
+ 1920  sudo add-apt-repository ppa:webupd8team/sublime-text-3
+ 1921  sudo apt-get update
+ 1922  sudo apt-get install sublime-text-installer
+ 1923  sublime &
+ 1924  sudo apt-get update
+ 1925  sudo apt-get upgrade
+ 1926  which sublime
+ 1927  which Sublime
+ 1928  ls
+ 1929  sublime-text-installer
+ 1930  which sublime-text-installer
+ 1931  sublime-text
+ 1932  cd /opt/sublime_text/
+ 1933  ll
+ 1934  sublime_text
+ 1935  ./sublime_text
+ 1936  sudo ln -s /opt/sublime_text/sublime_text
+ 1937  sudo ln -s /opt/sublime_text/sublime_text /usr/bin/sub1
+ 1938  sublime_text
+ 1939  ./sublime_text
+ 1940  cd
+ 1941  ssh -x 10.1.1.237
+ 1942  ssh -x aquari@10.1.1.237
+ 1943  ssh aquari@10.1.1.237
+ 1944  ssh aquari@10.1.1.237
+ 1945  sudo poweroff
+ 1946  ssh aquari@10.1.1.237
+ 1947  ping 143.106.60.88
+ 1948  ssh aquari@ 143.106.60.88
+ 1949  ssh aquari@143.106.60.88
+ 1950  gvim
+ 1951  sudo apt-get install gvim
+ 1952  sudo apt-get install vim-gnome
+ 1953  gvim
+ 1954  exit
+ 1955  ll
+ 1956  ls
+ 1957  gvim examples.desktop 
+ 1958  vi
+ 1959  vim
+ 1960  gvim arch1
+ 1961  ll
+ 1962  ls
+ 1963  cd Descargas/GNULINUX/
+ 1964  ll
+ 1965  gvim 345.txt 
+ 1966  wiew 345
+ 1967  wiew 345.txt 
+ 1968  view 345.txt 
+ 1969  gview 345.txt 
+ 1970  ll
+ 1971  mv 345-novo.txt novo.txt
+ 1972  ll
+ 1973  vim +100 345.txt 
+ 1974  vim +/Yes 345.txt 
+ 1975  vim -d 345.txt novo.txt 
+ 1976  vim -e 345.txt
+ 1977  vim -R 345.txt
+ 1978  vim 345.txt novo.txt 
+ 1979  vim 345.txt
+ 1980  cd Descargas/GNULINUX/
+ 1981  ls
+ 1982  man echo
+ 1983  echo -e "lunes\n\nmartes\n\n\nmiércoles\n\njueves\n" > dias1.txt
+ 1984  cat dias1.txt 
+ 1985  cat dias1.txt | tr -s "\n*" dias2.txt
+ 1986  cat dias1.txt | tr -s "\n*" > dias2.txt
+ 1987  cat dias2.txt 
+ 1988  cat dias2.txt | tr a-z A-Z
+ 1989  cat dias2.txt | tr -d aeiou
+ 1990  cat dias2.txt | tr -d aeiou a-z A-Z
+ 1991  cat dias2.txt | tr a-z A-Z -d aeiou
+ 1992  cat dias2.txt | tr -d aeiou | tr a-z A-Z
+ 1993  echo "Aa;Bb?:+98"
+ 1994  echo "Aa;Bb?:+98" | tr -c "[a-zA-Z0-9]" "_"
+ 1995  echo "Aa;Bb?:+98" | tr -c "[a-zA-Z0-9]" "[\n]"
+ 1996  echo "Aa;Bb?:+98" | tr -c "[a-zA-Z0-9]" "[\n*]"
+ 1997  echo "Aa;Bb?:+98" | tr -cd "[a-zA-Z0-9]" "[\n*]"
+ 1998  echo "Aa;Bb?:+98" | tr -cds "[a-zA-Z0-9]" "[\n*]"
+ 1999  echo "Aa;Bb?:+98" | tr -cs "[a-zA-Z0-9]" "[\n*]"
+ 2000  ls -l /usr/
+ 2001  ls -l /usr/ | tr -s " "
+ 2002  ls -l /usr/ | tr -s " " | cut -f3,4
+ 2003  ls -l /usr/ | tr -s "_" | cut -f3,4
+ 2004  ls -l /usr/ | tr -s "___" | cut -f3,4
+ 2005  ls -l /usr/ | tr -s "x" | cut -f3,4
+ 2006  ls -l /usr/ | tr -s "" | cut -f3,4
+ 2007  ls -l /usr/ | tr -s " " | cut -f3,4
+ 2008  ls -l /usr/ | tr -s " "
+ 2009  ls -l /usr | tr -s " " | cut -f3,4
+ 2010  echo "a b c ñ n m l e i h q d f á é í ó ú u o g j k p r s t v w
+x y z" | tr " " "\n" | sort | tr "\n" " "
+ 2011  echo "a b c ñ n m l e i h q d f á é í ó ú u o g j k p r s t v w
+x y z" | tr " " "\n" | sort
+ 2012  echo "a b c ñ n m l e i h q d f á é í ó ú u o g j k p r s t v w
+x y z" | tr " " "\n" | sort | tr "\n" " "
+ 2013  echo 101 21 2 1 11 | tr " " "\n" | sort | tr "\n" " "; echo
+ 2014  echo 101 21 2 1 11 | tr " " "\n" | sort -n | tr "\n" " "; echo
+ 2015  echo 101 21 2 1 11 | tr " " "\n" | sort -nr | tr "\n" " "; echo
+ 2016  man sort
+ 2017  ls -l /etc | grep ^- | tr -s " " | sort -t" " -k9
+ 2018  ls -l /etc/
+ 2019  find /var -name *.log
+ 2020  find /var -name *.log -print
+ 2021  sudo find /var -name *.log -print
+ 2022  find /var -name *.log -print
+ 2023  find /var/log/ -size +100k
+ 2024  find /var/log/ -size +100k -print
+ 2025  ls -l | find /var/log/ -size +100k
+ 2026  find --help
+ 2027  find --help |less
+ 2028  find /var/log/ -size +100k -print
+ 2029  find /var/log/ -size +100k -exec ls -l
+ 2030  find /var/log/ -size +100k -exec ls -l {}
+ 2031  find /var/log/ -size +100k -exec ls -l {} \;
+ 2032  find /var/log/ -size +100k -exec ls -l {} \; | less
+ 2033  find /var/spool/mail - atime +30 -print
+ 2034  find /var/spool/mail -atime +30 -print
+ 2035  touch /tmp/vacio1 /tmp/vacio2
+ 2036  mkdir /tmp/vaciodir ; touch /tmp/vaciodir/vacio3
+ 2037  find /tmp/ -empty ls -l {} \;
+ 2038  find /tmp -empty ls -l {} \;
+ 2039  find /tmp -empty -exec ls -l {} \;
+ 2040  sudo find /tmp -empty -exec ls -l {} \;
+ 2041  find /tmp -empty -exec ls -l {} \;
+ 2042  find /tmp -empty -exec ls -l {} \; 2>/dev/null
+ 2043  find /tmp -empty -exec rm -r {} \; 2>/dev/null
+ 2044  find /tmp -empty -exec ls -l {} \; 2>/dev/null
+ 2045  find /tmp -name vacio*
+ 2046  find /tmp -name vacio*\; 2>/dev/null
+ 2047  find /home/ -nouser -ls
+ 2048  sudo find /home/ -nouser -ls
+ 2049  echo -e  "lunes\nmartes\nmiércoles\njueves" > dias.txt
+ 2050  echo -e "viernes\nsábado\ndomingo" >> dias.txt
+ 2051  cat dias.txt 
+ 2052  grep martes dias.txt 
+ 2053  grep nes dias.txt 
+ 2054  grep es dias.txt 
+ 2055  grep m[a-z]*es dias.txt 
+ 2056  grep m[[:alpha:]]*es dias.txt 
+ 2057  grep [lt]es dias.txt 
+ 2058  ls -l /usr
+ 2059  ls -l /usr | grep '^d'
+ 2060  ls -l / | grep '.......rw'
+ 2061  grep '^[^:]*:x:10[0-9]:' /etc/passwd
+ 2062  grep --help
+ 2063  grep --help | less
+ 2064  grep '^[^:]*:x:10[0-9]:' /etc/passwd
+ 2065  grep -f buscar.grep dias.txt
+ 2066  echo -e "tes\njue" > buscar.grep
+ 2067  cat buscar.grep 
+ 2068  cat historia.txt | tr -sc [:alpha:]áéíóúñ '\012' | sort | uniq
+ 2069  cat historia.txt | tr -sc [:alpha:]áéíóúñ '\012' | sort | uniq -c | sort -nr | head -20
+ 2070  which history
+ 2071  wheris history
+ 2072  whereis history
+ 2073  history
+ 2074  whereis history
+ 2075  history > historia.txt

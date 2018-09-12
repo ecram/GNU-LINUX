@@ -1,0 +1,18 @@
+#!/bin/bash
+# ecopars.sh
+# muestra lo parámetros recibidos
+echo Cantidad de parámetros: $#
++ echo Cantidad de parámetros: 3
+for VAR in $*
+do
+	echo $VAR
+done
++ for VAR in $*
++ echo dias1.txtsfdf
++ for VAR in $*
++ echo dff
++ for VAR in $*
++ echo listapal.sh
+echo Nombre del programa, parámetro: 0:$0
++ echo Nombre del programa, parámetro: 0:ecopars.sh
+#fin ecopars.sh
